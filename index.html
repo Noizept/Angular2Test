@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Angular2Test</title>
+  <base href="/angular2-test/">
+  <link rel="manifest" href="assets/icons/manifest.json">
+  <meta name="theme-color" content="#db5945">
+  <link rel="icon" sizes="192x192" href="assets/icons/android-chrome-192x192.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link href="styles.a1b2c53bb5e025c6403e.bundle.css" rel="stylesheet"/></head>
+<body>
+  <app-root>
+    <div class="centered">
+          <img src="assets/icons/FUNCHAL_logo2016-03.png" alt="logo">
+          <h1> Camara Municipal do Funchal</h1>
+      </div>
+  </app-root>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="inline.53e5661af67b4ac0ad1e.bundle.js"></script><script type="text/javascript" src="polyfills.cac167cd471b71ae6ed7.bundle.js"></script><script type="text/javascript" src="main.201481a307b49223f846.bundle.js"></script></body>
+
+<script>
+  if('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js').then(function(registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }).catch(function(err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    });
+  }
+</script>
+</html>
